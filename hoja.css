@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Coalition;
+    src: url(./letras/Coalition_v2..ttf);
+}
+
+body{
+    background-color: rgb(0, 0, 0);  
+}
+
+#tapa{
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    height: 30vh;
+    width: 65vw;
+    background-color: black;
+    z-index: 30;
+
+  }
+
+#foto{
+    height: 97vh;
+    position: absolute;
+    left: 65vw;
+    opacity: 0.7;
+    
+    border-radius: 10%;
+    position: fixed;
+    z-index: 20;  
+}
+
+.fotoinicia0{
+    content: url('santy.png');
+}
+
+.fotoinicia {
+    content: url('santy.gif');
+
+}
+
+
+  #nombre{
+    font-family: Coalition;
+    position: relative;
+    bottom: 5vh;
+    left: 10vw;
+    z-index: 30;
+    width: 85vw;
+    font-size: 4rem;
+    line-height: 115%;
+    color: transparent;
+    background-image: linear-gradient(rgb(163, 194, 178), rgb(227, 6, 43), purple, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+
+ 
+  }
+
+  #subtitul{
+    font-family: 'Coalition', sans-serif; /* Asegúrate de que 'Coalition' esté entre comillas */
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 8vh;
+    left: 3vw;
+    display: inline;
+    background: linear-gradient(to bottom right, rgb(163, 194, 178), rgb(227, 6, 43), purple, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Esto es equivalente a -webkit-text-fill-color: transparent; */
+    line-height: 115%;
+  }
+
+.subtitulo{
+    position: relative;
+    left: 2vw;
+    
+}
+.parrafo{
+    position: relative;
+    left:10vw;
+    bottom: 3vh;
+}
+
+ul{
+    position: relative;
+    left: 8vw;
+}
+
+  .texto{
+    font-family: 'Coalition', sans-serif; /* Asegúrate de que 'Coalition' esté entre comillas */
+    font-size: 2rem;
+    background: linear-gradient(to bottom right, rgb(163, 194, 178), rgb(227, 6, 43), purple, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  
+
+  .parallax {
+    position: fixed;
+    z-index: 40;
+    
+  }
+
+  .abajo{
+    width: 50vw;
+    position: relative;
+    top: 28vh;
+    z-index: 1;
+  }
+
+  .tapafoto{
+    position: absolute;
+    z-index: 100;
+    background-color: #000000;
+  }
+
+/* Ancho de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Color del "pulgar" (la parte que puedes arrastrar) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #000000; /* Negro */
+    border-radius: 6px; /* Bordes redondeados del "pulgar" */
+  }
+  
+  /* Color de la pista (fondo detrás del "pulgar") */
+  ::-webkit-scrollbar-track {
+    background-color: #333333; /* Color de fondo */
+  }
+
+  #hobbies{
+    position: relative;
+    top: 25vh;
+    z-index: 30;
+
+  }
