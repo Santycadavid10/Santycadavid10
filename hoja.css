@@ -30,11 +30,11 @@ body{
 }
 
 .fotoinicia0{
-    content: url('santy.png');
+    content: url('inicio.jpg');
 }
 
 .fotoinicia {
-    content: url('santy.gif');
+    content: url('juego.gif');
 
 }
 
